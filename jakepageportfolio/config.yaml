@@ -1,0 +1,58 @@
+author:
+  email: jake.page91@gmail.com
+  name: Jake Page
+baseurl: https://jakepage91.github.io/jakepage/
+copyright: © Jake Page
+languagecode: en-us
+enablerobotstxt: true
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    style: vs
+menu:
+  main:
+  - identifier: home
+    name: Home
+    weight: 10
+    url: /
+  - identifier: about
+    name: About
+    weight: 20
+    url: /about/
+  - identifier: blog
+    name: Blog
+    weight: 30
+    url: /blog/
+  - identifier: Videos
+    name: Videos
+    weight: 40
+    url: /videos/
+  - identifier: projects
+    name: Projects
+    weight: 50
+    url: /projects/
+  - identifier: categories
+    name: Categories
+    weight: 60
+    url: /categories/
+  - identifier: tags
+    name: Tags
+    weight: 70
+    url: /tags/
+paginate: 50
+permalinks:
+  blog: /blog/:year/:month/:day/:title/
+social:
+  envelope: mailto:jake.page91@gmail.com
+  discord: https://discord.oraculi.io
+  github: https://github.com/jakepage91
+  instagram: https://www.instagram.com/jpageg/
+  linkedin: https://www.linkedin.com/in/jake-page-aws/
+  twitter: https://twitter.com/jakepage91
+  youtube: https://www.youtube.com/channel/UCHnBn2kjwTVhfzzjyC3nBdQ
+theme: paige
+timezone: Europe/Lisbon
+title: Jake Page
+titlecasestyle: Go
