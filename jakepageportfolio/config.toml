@@ -1,0 +1,4 @@
+baseURL = "https://jakepage91.github.io/jakepage/"
+languageCode = 'en-us'
+title = 'Jake Page'
+theme="paige"

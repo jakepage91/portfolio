@@ -1,0 +1,4 @@
+[submodule "jakepageportfolio/public"]
+	path = jakepageportfolio/public
+	url = https://github.com/jakepage91/jakepage.git
+	branch = main
